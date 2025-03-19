@@ -30,7 +30,7 @@ A simple full-stack web app with **React** frontend, **Flask** backend, and **Po
 
 ## Deployment with Docker-Compose
 
-1. **Install Helm** on your local machine and Kubernetes cluster.
+1. **Install Docker** and **Docker-Compose** on your local machine.
 2. **Build Docker containers** for frontend and backend:
    ```console
    docker-compose build
