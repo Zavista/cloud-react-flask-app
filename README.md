@@ -6,25 +6,25 @@ A simple full-stack web app with **React** frontend, **Flask** backend, and **Po
 
 1. **Install Helm** on your local machine and Kubernetes cluster.
 2. **Build Docker images** for frontend and backend:
-   ````bash
-   docker-compose build```
-   ````
+
+   ```console
+   docker-compose build
+   ```
+
 3. **Package the Helm chart**
-   ```bash
+   ```console
    helm package ./helm
    ```
 4. **Install the Helm chart** to the Kubernetes cluster:
-   ```
-   bash
+   ```console
    helm install flask-react-app ./flask-react-app-0.1.0.tgz
    ```
 5. **Check the deployed services:**:
-   ```bash
+   ```console
    kubectl get svc
    ```
 6. **Access the application** in your browser:
-   ```
-   bash
+   ```console
    http://localhost:3000
    ```
 
@@ -32,15 +32,14 @@ A simple full-stack web app with **React** frontend, **Flask** backend, and **Po
 
 1. **Install Helm** on your local machine and Kubernetes cluster.
 2. **Build Docker containers** for frontend and backend:
-   ````bash
+   ````console
    docker-compose build```
    ````
 3. **Run the containers using Docker-Compose**
-   ```bash
+   ```console
    docker-compose up
    ```
 4. **Access the application** in your browser:
-   ```
-   bash
+   ```console
    http://localhost:3000
    ```
