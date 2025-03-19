@@ -25,7 +25,7 @@ A simple full-stack web app with **React** frontend, **Flask** backend, and **Po
    ```
 6. **Access the application** in your browser:
    ```console
-   http://localhost:3000
+   http://localhost:5173
    ```
 
 ## Deployment with Docker-Compose
@@ -41,5 +41,5 @@ A simple full-stack web app with **React** frontend, **Flask** backend, and **Po
    ```
 4. **Access the application** in your browser:
    ```console
-   http://localhost:3000
+   http://localhost:5173
    ```
